@@ -15,7 +15,7 @@ const AboutHeader = () => {
             <div className='aboutInfo'>
                 <Logo />
                 <div className="headerText">
-                    <h1>Brandgrand (Brandon)</h1>
+                    <h1>Brandon</h1>
                     <h4>Hello my name is Brandon I am a coding enthusiast, gamer, And a Highschool student. I build websites, make chat bots, and have fun!</h4>
                 </div>
             </div>

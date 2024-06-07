@@ -8,7 +8,7 @@ const Footer = () => {
             <footer className="footer">
                     Made with <FontAwesomeIcon className="icon" icon={faHeart} /> to be open source by Brandon! {" "}
                 <div className="links">
-                    <Link className="link" href={"/"}>
+                    <Link className="link" href="https://github.com/BrandgrandRealMe/Portfolio" target="_blank">
                         <FontAwesomeIcon className="icon" icon={faFileArchive} /> Source
                     </Link>
                 </div>
