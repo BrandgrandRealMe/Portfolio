@@ -2,35 +2,58 @@
 @import '@/styles/partials/_navbar.scss';
 
 .aboutHeader {
-    height: calc(100vh - ($header-height + $header-bottom_border) );
+    height: calc(100vh - ($header-height + $header-bottom_border));
     background-color: $primary-background;
     color: $secondary-background;
     width: 97%;
-    margin:auto;
+    margin: auto;
+
     canvas {
-        position: absolute; 
+        position: absolute;
         z-index: 1;
     }
+
     .aboutInfo {
-        position: absolute; 
+        position: absolute;
         width: 97%;
         z-index: 2;
         align-items: center;
         display: flex;
         justify-content: center;
-        height: calc(100vh - ($header-height + $header-bottom_border) );
+        height: calc(100vh - ($header-height + $header-bottom_border));
+        display: flex;
+        flex-direction: column;
 
         .Logo {
-            height: 15vw;
+            height: 50vw;
             width: auto;
+            margin-top: 20px;
         }
+
         .headerText {
             color: $secondary-foreground;
+            margin: 20px;
+
             h1 {
-                font-size: 3vw;
+                font-size: 50px;
             }
+
             h4 {
-                font-size: 1vw;
+                font-size: 25px;
+            }
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+
+        // when large
+        .aboutInfo {
+            flex-direction: row;
+
+            .Logo {
+                height: 15vw;
+                width: auto;
+                margin: 0;
             }
         }
     }
