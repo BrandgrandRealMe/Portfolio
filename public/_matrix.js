@@ -54,21 +54,17 @@ function draw() {
   }
 }
 
-// restart or start
-function initializeMatrixEffect() {
-  setWandH()
-  // Loop the animation
-  setInterval(draw, 55);
-}
-
 // Keep size correct
 window.onresize = setWandH;
 window.addEventListener("resize", setWandH);
 
-window.onload = initializeMatrixEffect;
-addEventListener("load", initializeMatrixEffect);
+window.onload = setWandH;
+addEventListener("load", setWandH);
 
-window.onpageshow = initializeMatrixEffect;
-addEventListener("pageshow", initializeMatrixEffect);
+window.onpageshow = setWandH;
+addEventListener("pageshow", setWandH);
+
+setWandH()
+setInterval(draw, 33);
 
 
