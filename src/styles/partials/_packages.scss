@@ -1,0 +1,33 @@
+@import '@/styles/colors.scss';
+
+.packages {
+    margin: 5% 20% 5% 20%;
+
+    h2 {
+        color: $primary-foreground;
+    }
+
+    .npm {
+        .Package {
+            height: fit-content;
+            background-color: $tertiary-background; 
+            text-decoration: none;
+            color: white; 
+            display: flex;
+            padding: 16px;
+            align-items: center;
+            margin: 20px;
+
+
+                .icon {
+                    color: #CC3534;
+                    width: 10%;
+                    padding-right: 15px;
+                }
+
+            
+        }
+    }
+}
+
+// margin: t r b l;
