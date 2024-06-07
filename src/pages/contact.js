@@ -4,7 +4,6 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 import Navbar from "@/components/nav/Navbar";
-import AboutHeader from "@/components/home/header";
 
 export default function Home() {
   return (
@@ -19,7 +18,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <AboutHeader />
     </>
   );
 }
