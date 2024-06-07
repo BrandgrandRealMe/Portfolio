@@ -21,7 +21,6 @@
         display: flex;
         justify-content: center;
         height: calc(100vh - ($header-height + $header-bottom_border));
-        display: flex;
         flex-direction: column;
 
         .Logo {
