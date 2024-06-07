@@ -1,0 +1,18 @@
+@import '@/styles/colors.scss';
+
+.footer {
+    height: 10vh;
+    font-size: 15px;
+    color: $quaternary-foreground;
+    background-color: $quaternary-background;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .icon {
+        width: 15px;
+        height: auto;
+        margin: 5px;
+        color: red;
+    }
+}

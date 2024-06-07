@@ -12,6 +12,19 @@ body {
     background-color: $primary-background;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: $sb-track;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: $sb-thumb;
+    border-radius: 5px;
+  }
+
 .circle {
     border-radius: 50%;
   }

@@ -6,6 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 import Navbar from "@/components/nav/Navbar";
 import AboutHeader from "@/components/home/header";
 import Packages from "@/components/home/packages";
+import Footer from "@/components/footer/footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Navbar />
       <AboutHeader />
       <Packages />
+      <Footer />
     </>
   );
 }
