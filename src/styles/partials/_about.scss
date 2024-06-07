@@ -1,0 +1,25 @@
+@import '@/styles/colors.scss';
+
+.About {
+    margin: 5% 20% 5% 20%;
+    height: fit-content;
+    justify-content: center;
+    display: flex;
+    .code {
+        h2 {
+            color: $primary-foreground;
+        }
+
+        .Codeblock {
+            display: flex;
+            padding: 16px;
+            align-items: center;
+            margin: 20px;
+
+            .CodeblockText {
+                font-size: 1vw;
+            }
+
+        }
+    }
+}

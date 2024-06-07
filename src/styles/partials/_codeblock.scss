@@ -1,0 +1,26 @@
+@import '@/styles/colors.scss';
+
+.Codeblock {
+    background-color: $tertiary-background;
+    padding: 20px;
+    margin: 20px;
+    width: fit-content;
+    border-radius: 5px;
+    position: relative; 
+    .CopyCode {
+        color: rgba(240,255,255, .15);
+        min-width: 25px;
+        max-width: 50px;
+        width: 5%;
+        cursor: pointer;
+        position: absolute; /* Absolute positioning for `.CopyCode` */
+        top: 25px; /* Place it at the top edge */
+        right: 25px; /* Place it at the right edge */
+    }
+    .CopyCode:hover {
+        color: rgba(240,255,255, .55);
+    }
+    .CodeblockText {
+        color: white;
+    }
+}
