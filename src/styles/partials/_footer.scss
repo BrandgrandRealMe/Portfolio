@@ -8,11 +8,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
     .icon {
         width: 15px;
         height: auto;
         margin: 5px;
         color: red;
+    }
+    .links {
+        padding-left: 50px;
+        margin: 5px;
+        color: $quaternary-foreground;
+        .link {
+            width: fit-content;
+            justify-content: center;
+            align-items: center;
+            display: block;
+
+            color: $quaternary-foreground;
+            .icon {
+                display: block;
+                justify-content: center;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+                color: inherit;
+            }
+        }
     }
 }
