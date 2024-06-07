@@ -1,0 +1,35 @@
+@import '@/styles/colors.scss';
+
+.bots {
+    margin: 5% 20% 5% 20%;
+
+    h2 {
+        color: $primary-foreground;
+    }
+
+    .discord {
+
+        .Bot {
+            height: fit-content;
+            background-color: $tertiary-background;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            padding: 16px;
+            align-items: center;
+            margin: 20px;
+            .pfp {
+                width: 10%;
+                height: auto;
+                margin-right: 15px;
+            }
+            .icon {
+                width: 10%;
+                margin-right: 15px;
+                color: #5865F2;
+            }
+        }
+    }
+}
+
+// margin: t r b l;
