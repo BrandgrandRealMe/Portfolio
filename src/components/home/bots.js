@@ -43,7 +43,7 @@ const Bots = () => {
                 </Link>
             </div>
             <div className="revolt">
-                <Link href="https://top.gg/bot/745786473554378832" target="_blank" className="Bot">
+                <Link href="https://app.revolt.chat/bot/01H3MVST5ASBE2M08KJ393M6HJ" target="_blank" className="Bot">
                     <div className="icons">
                         <div className="Services">
                             <Image src={RevoltIcon} className="icon" />
