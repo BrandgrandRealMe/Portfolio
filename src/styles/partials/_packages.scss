@@ -8,12 +8,14 @@
     }
 
     .npm {
+        
         .Package {
             height: fit-content;
             background-color: $tertiary-background; 
             text-decoration: none;
             color: white; 
             display: flex;
+            flex-direction: column;
             padding: 16px;
             align-items: center;
             margin: 20px;
@@ -21,11 +23,20 @@
 
                 .icon {
                     color: #CC3534;
+                    height: 10%;
+                }
+                
+
+            
+        }
+        @media screen and (min-width: 768px) {
+            .Package {
+                flex-direction: row;
+                .icon {
                     width: 10%;
                     padding-right: 15px;
                 }
-
-            
+            }
         }
     }
 }
