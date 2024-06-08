@@ -7,64 +7,68 @@
         color: $primary-foreground;
     }
 
+
+    .Bot {
+        height: fit-content;
+        background-color: $tertiary-background;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        padding: 16px;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px;
+    }
+
     .discord {
-
-        .Bot {
-            height: fit-content;
-            background-color: $tertiary-background;
-            text-decoration: none;
-            color: white;
-            display: flex;
-            padding: 16px;
-            align-items: center;
-            flex-direction: column;
-            margin: 20px;
-        }
-
-        .icons {
-            position: relative;
-            width: 100%;
-
-            .pfp {
-                width: 100%;
-                height: auto;
-                position: relative;
-                z-index: 1;
-            }
-
-            .icon {
-                width: 25%;
-                color: #5865F2;
-                position: absolute;
-                top: 5%;
-                right: 5%;
-                z-index: 2;
-            }
+        .icon {
+            color: #5865F2;
         }
     }
 
+    .icons {
+        position: relative;
+        width: 100%;
+
+        .pfp {
+            width: 100%;
+            height: auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .icon {
+            width: 25%;
+            position: absolute;
+            top: 5%;
+            right: 5%;
+            z-index: 2;
+        }
+    }
+
+
     @media screen and (min-width: 768px) {
-        .discord {
 
-            .Bot {
-                flex-direction: row;
-                .icons {
-                    position: relative;
-                    height: 15vh;
-                    width: fit-content;
-                    padding-right: 15px;
+        .Bot {
+            flex-direction: row;
 
-                    .pfp {
-                        height: 100%;
-                        width: auto;
-                    }
+            .icons {
+                position: relative;
+                height: 15vh;
+                width: fit-content;
+                padding-right: 15px;
 
-                    .icon {
-                        height: 25%;
-                    }
+                .pfp {
+                    height: 100%;
+                    width: auto;
+                }
+
+                .icon {
+                    height: 25%;
                 }
             }
         }
+
     }
 }
 
