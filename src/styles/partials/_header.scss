@@ -41,19 +41,19 @@ $Canvas: calc($CanvasTop + $CanvasOverhang);
         .Logo {
             height: 20vw;
             width: auto;
-            margin-top: 20px;
+            margin-top: 10px;
         }
 
         .headerText {
             color: $secondary-foreground;
-            margin: 20px;
+            margin: 10px;
 
             h1 {
-                font-size: 25px;
+                font-size: 40px;
             }
 
             h4 {
-                font-size: 10px;
+                font-size: 20px;
             }
         }
     }
