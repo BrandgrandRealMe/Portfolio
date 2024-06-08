@@ -1,12 +1,25 @@
 @import '@/styles/colors.scss';
 @import '@/styles/partials/_navbar.scss';
 
+$DownIcon_height: 45px;
+$DownIcon_bottomoffset: 15px;
+
 .aboutHeader {
+    position: relative;
     height: calc(100vh - ($header-height + $header-bottom_border));
     background-color: $primary-background;
     color: $secondary-background;
     width: 97%;
     margin: auto;
+
+    .DownIcon {
+        height: $DownIcon_height;
+        position: absolute;
+        z-index: 2;
+        right: 50%;
+        top: calc((100vh - ($header-height + $header-bottom_border)) - ($DownIcon_height + $DownIcon_bottomoffset));
+        transform: translate(50%);   
+    }
 
     canvas {
         position: absolute;

@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import Script from 'next/script';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 import Logo from "@/components/logo.js";
 
@@ -19,6 +21,7 @@ const AboutHeader = () => {
                     <h4>Hello my name is Brandon I am a coding enthusiast, gamer, And a Highschool student. I build websites, make chat bots, and have fun!</h4>
                 </div>
             </div>
+            <FontAwesomeIcon className="DownIcon" icon={faChevronDown} />
         </div>
     );
 };
