@@ -1,20 +1,24 @@
 @import '@/styles/colors.scss';
 
+$FooterFontSize: 1vw;
+$FooterFontSizeBig: 3vw;
+
 .footer {
     height: 10vh;
-    font-size: 15px;
+    font-size: $FooterFontSizeBig;
     color: $quaternary-foreground;
     background-color: $quaternary-background;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     .icon {
-        width: 15px;
+        width: $FooterFontSizeBig;
         height: auto;
         margin: 5px;
         color: red;
     }
+
     .links {
         position: absolute;
         display: flex;
@@ -22,6 +26,7 @@
         margin: 5px;
 
         color: $quaternary-foreground;
+
         .link {
             width: fit-content;
             justify-content: center;
@@ -29,6 +34,9 @@
             display: block;
             padding-right: 15px;
             color: $quaternary-foreground;
+            div {
+                display: none;
+            }
             .icon {
                 display: block;
                 justify-content: center;
@@ -39,6 +47,22 @@
                 height: 3vh;
 
             }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        font-size: $FooterFontSize;
+        .links {
+            .link {
+                div {
+                    display: flex;
+                }
+            }
+        }
+        .icon {
+            width: $FooterFontSize;
         }
     }
 }
