@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import { faHeart, faMoneyBill1 } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 const Footer = () => {
     return (
@@ -10,6 +10,9 @@ const Footer = () => {
                 <div className="links">
                     <Link className="link" href="https://github.com/BrandgrandRealMe/Portfolio" target="_blank">
                         <FontAwesomeIcon className="icon" icon={faGithub} /> Source
+                    </Link>
+                    <Link className="link" href="https://ko-fi.com/brandonthedev" target="_blank">
+                        <FontAwesomeIcon className="icon" icon={faMoneyBill1} /> Donate
                     </Link>
                 </div>
             </footer>

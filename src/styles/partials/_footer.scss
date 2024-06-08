@@ -17,15 +17,17 @@
     }
     .links {
         position: absolute;
+        display: flex;
         left: 20px;
         margin: 5px;
+
         color: $quaternary-foreground;
         .link {
             width: fit-content;
             justify-content: center;
             align-items: center;
             display: block;
-
+            padding-right: 15px;
             color: $quaternary-foreground;
             .icon {
                 display: block;
@@ -34,6 +36,8 @@
                 margin-left: auto;
                 margin-right: auto;
                 color: inherit;
+                height: 3vh;
+
             }
         }
     }
