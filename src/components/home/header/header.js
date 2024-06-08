@@ -3,6 +3,8 @@ import Script from 'next/script';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
+import SocialIcons from "@/components/home/header/socialicons";
+
 import Logo from "@/components/logo.js";
 
 const AboutHeader = () => {
@@ -22,6 +24,7 @@ const AboutHeader = () => {
                 </div>
             </div>
             <FontAwesomeIcon className="DownIcon" icon={faChevronDown} />
+            <SocialIcons />
         </div>
     );
 };

@@ -3,15 +3,17 @@
 
 $DownIcon_height: 45px;
 $DownIcon_bottomoffset: 15px;
+$CanvasTop: calc(100vh - ($header-height + $header-bottom_border));
+$CanvasOverhang: calc($CanvasTop / 2);
+$Canvas: calc($CanvasTop + $CanvasOverhang);
 
 .aboutHeader {
     position: relative;
-    height: calc(100vh - ($header-height + $header-bottom_border));
+    height: $Canvas;
     background-color: $primary-background;
     color: $secondary-background;
     width: 97%;
     margin: auto;
-
     .DownIcon {
         height: $DownIcon_height;
         position: absolute;

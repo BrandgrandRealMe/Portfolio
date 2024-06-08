@@ -1,0 +1,29 @@
+@import '@/styles/colors.scss';
+@import '@/styles/partials/_header.scss';
+
+$midOverhang: calc(($CanvasOverhang / 2) + $CanvasTop);
+$iconHeight: 45px;
+
+.socialIcons {
+    position: absolute;
+    z-index: 2;
+    top: calc($midOverhang - ($iconHeight/2));
+    right: 50%;
+    transform: translate(50%);
+
+    .social:last-child {
+        .icon {
+            margin: 20px 0px 20px 0px;
+        }
+    }
+
+    .social {
+        .icon {
+            height: $iconHeight;
+            width: fit-content;
+            margin: 20px 10px 20px 0px;
+            padding: 1px;
+            color: $quaternary-foreground;
+        }
+    }
+}
