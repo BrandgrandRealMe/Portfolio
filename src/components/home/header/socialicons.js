@@ -16,9 +16,6 @@ const SocialIcons = () => {
             <Link className="social" href="https://x.com/BrandgrandReal" target="_blank">
                 <FontAwesomeIcon className="x icon" icon={faXTwitter} />
             </Link>
-            <Link className="social" href="https://x.com/BrandgrandReal" target="_blank">
-                <FontAwesomeIcon className="donate icon" icon={faDonate} />
-            </Link>
         </div>
     );
 };
