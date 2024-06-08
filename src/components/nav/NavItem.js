@@ -2,12 +2,12 @@ import Link from "next/link";
 import React, { useState } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faDollarSign, faIdCard, faBox } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faMoneyBill1, faIdCard, faBox } from '@fortawesome/free-solid-svg-icons';
 
 const NavItem = ({ text, href, target, icon, active }) => {
     const availableIcons = {
         home: faHouse,
-        donate: faDollarSign,
+        donate: faMoneyBill1,
         contact: faIdCard,
         box: faBox,
     };
