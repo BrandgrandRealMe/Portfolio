@@ -16,7 +16,8 @@
         color: red;
     }
     .links {
-        padding-left: 50px;
+        position: absolute;
+        left: 20px;
         margin: 5px;
         color: $quaternary-foreground;
         .link {
