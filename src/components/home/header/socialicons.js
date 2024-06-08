@@ -2,7 +2,6 @@ import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faHeart, faMoneyBill1 } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faDiscord, faXTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faDonate } from '@fortawesome/free-solid-svg-icons';
 
 const SocialIcons = () => {
     return (
