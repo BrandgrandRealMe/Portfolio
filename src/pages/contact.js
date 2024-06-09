@@ -5,6 +5,7 @@ import { faEnvelope, faPhone, faAt } from '@fortawesome/free-solid-svg-icons';
 import { faDiscord, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 import { ToastContainer, toast } from 'react-toastify';
+import Tippy from '@tippyjs/react';
 
 import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
@@ -44,18 +45,26 @@ export default function Home() {
             <text fontFamily="Open Sans" fontSize="14" fontStyle="normal" fontWeight="700" style={{ fontFamily: 'inherit', stroke: "none", strokeWidth: "0", strokeDasharray: "none", strokeLinecap: "butt", strokeDashoffset: "0", strokeLinejoin: "miter", fill: "currentColor", fillRule: "nonzero", opacity: "1" }}><tspan x="50%" y="50%" dominantBaseline="middle" textAnchor="middle">Contact Me</tspan></text>
           </svg>
           <div className="buttons">
-            <Link className="button" href={email} target="_blank">
-              <FontAwesomeIcon className="icon At" icon={faAt} />
-            </Link>
-            <a className="button" onClick={copyPhoneNumber}>
-              <FontAwesomeIcon className="icon phone" icon={faPhone} />
-            </a>
-            <Link className="button" href="https://discordapp.com/users/531186390717825074" target="_blank">
-              <FontAwesomeIcon className="icon" icon={faDiscord} />
-            </Link>
-            <Link className="button" href="https://x.com/BrandgrandReal" target="_blank">
-              <FontAwesomeIcon className="icon" icon={faXTwitter} />
-            </Link>
+            <Tippy content="brandon@brandgrand.rocks" className="tooltip">
+              <Link className="button" href={email} target="_blank">
+                <FontAwesomeIcon className="icon At" icon={faAt} />
+              </Link>
+            </Tippy>
+            <Tippy content="(903) 458 - 9426" className="tooltip">
+              <a className="button" onClick={copyPhoneNumber}>
+                <FontAwesomeIcon className="icon phone" icon={faPhone} />
+              </a>
+            </Tippy>
+            <Tippy content="@BrandgrandReal" className="tooltip">
+              <Link className="button" href="https://discordapp.com/users/531186390717825074" target="_blank">
+                <FontAwesomeIcon className="icon" icon={faDiscord} />
+              </Link>
+            </Tippy>
+            <Tippy content="@BrandgrandReal" className="tooltip">
+              <Link className="button" href="https://x.com/BrandgrandReal" target="_blank">
+                <FontAwesomeIcon className="icon" icon={faXTwitter} />
+              </Link>
+            </Tippy>
           </div>
         </div>
       </div>

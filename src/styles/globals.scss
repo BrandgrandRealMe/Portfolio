@@ -28,3 +28,12 @@ body {
 .circle {
     border-radius: 50%;
   }
+
+.tooltip {
+  background-color: $tooltip-background;
+  color: $tooltip-foreground;
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+}
