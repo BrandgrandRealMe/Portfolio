@@ -1,10 +1,11 @@
 @import '@/styles/colors.scss';
 
+$FooterHeight: 10vh;
 $FooterFontSize: 1vw;
 $FooterFontSizeBig: 3vw;
 
 .footer {
-    height: 10vh;
+    height: $FooterHeight;
     font-size: $FooterFontSizeBig;
     color: $quaternary-foreground;
     background-color: $quaternary-background;

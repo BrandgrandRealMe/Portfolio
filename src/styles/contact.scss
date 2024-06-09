@@ -1,0 +1,55 @@
+@import '@/styles/colors.scss';
+@import '@/styles/partials/_navbar.scss';
+@import '@/styles/partials/_footer.scss';
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - ($header-height + $FooterHeight + $header-bottom_border));
+}
+.contactme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+
+    svg {
+        color: $primary-foreground;
+        
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .button:last-child {
+            margin-right: 0vw;
+        }
+
+        .button {
+            width: fit-content;
+            margin-right: 2vw;
+            .icon {
+                height: 10vw;
+                color: $quaternary-foreground;
+            }
+            .phone {
+                padding-top: 5%;
+                padding-bottom: 5%;
+            }
+            .At {
+                padding-top: 5%;
+                padding-bottom: 5%;
+            }
+            .icon:hover {
+                color: rgba($quaternary-foreground, .5);
+                cursor: pointer;
+            }
+        }
+    }
+}
