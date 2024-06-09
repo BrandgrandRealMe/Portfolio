@@ -40,7 +40,7 @@ export default function Home() {
       <div className="contact">
         <div className="contactme">
           <svg className="text" viewBox="0 0 75 14"  >
-            <text font-family="Open Sans" font-size="14" font-style="normal" font-weight="700" line-height="1" style={{ 'font-family': 'inherit', "padding-left": 0, "padding-right": 0, "margin-left": 0, "margin-right": 0, stroke: "none", 'stroke-width': "0", 'stroke-dasharray': "none", 'stroke-linecap': "butt", 'stroke-dashoffset': "0", 'stroke-linejoin': "miter", fill: "currentColor", 'fill-rule': "nonzero", opacity: "1" }}><tspan x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">Contact Me</tspan></text>
+            <text fontFamily="Open Sans" fontSize="14" fontStyle="normal" fontWeight="700" style={{ fontFamily: 'inherit', stroke: "none", strokeWidth: "0", strokeDasharray: "none", strokeLinecap: "butt", strokeDashoffset: "0", strokeLinejoin: "miter", fill: "currentColor", fillRule: "nonzero", opacity: "1" }}><tspan x="50%" y="50%" dominantBaseline="middle" textAnchor="middle">Contact Me</tspan></text>
           </svg>
           <div className="buttons">
             <Link className="button" href={email} target="_blank">
