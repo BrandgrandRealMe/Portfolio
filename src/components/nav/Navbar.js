@@ -8,7 +8,6 @@ import NavItem from "@/components/nav/NavItem";
 const MENU_LIST = [
     { text: "Home", icon: "home", href: "/", target: "_top" },
     { text: "Contact", icon: "contact", href: "/contact", target: "_top" },
-    { text: "Packages", icon: "box", href: "#Packages", target: "_top" },
     { text: "Donate", icon: "donate", href: "https://ko-fi.com/brandonthedev", target: "_blank" },
 ];
 
