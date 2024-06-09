@@ -13,7 +13,8 @@ import Navbar from "@/components/nav/Navbar";
 import Footer from "@/components/footer/footer";
 const email = "mailto:brandon@brandgrand.rocks";
 const phone = "9034589426";
-
+const twitter = "BrandgrandReal";
+const description = `Contact BrandgrandReal (Brandon) at ${email} or view the page for more options.`;
 
 export default function Home() {
   function copyPhoneNumber() {
@@ -23,10 +24,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>About BrandgrandReal (Brandon)</title>
+        <title>Contact BrandgrandReal (Brandon)</title>
         <meta
           name="description"
-          content="Hello my name is Brandon I am a coding enthusiast, gamer, And a Highschool student. I build websites, make chat bots, and have fun!"
+          content={description}
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon/favicon.ico" />
