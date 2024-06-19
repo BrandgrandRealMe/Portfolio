@@ -1,0 +1,76 @@
+@import '@/styles/colors.scss';
+
+.wallpapers {
+    margin: 5% 20% 5% 20%;
+
+    h2 {
+        color: $primary-foreground;
+    }
+
+
+    .wallpaper {
+        height: fit-content;
+        background-color: $tertiary-background;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        padding: 16px;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+
+    .icons {
+        position: relative;
+        width: 100%;
+
+        .preview {
+            width: 100%;
+            height: auto;
+            position: relative;
+            z-index: 1;
+        }
+        .Services {
+            display: flex;
+            position: absolute;
+            top: 5%;
+            right: 5%;
+            z-index: 2;
+            justify-content: flex-end;
+
+        }
+        .icon {
+            width: 25%;
+            height: fit-content;
+        }
+    }
+
+
+    @media screen and (min-width: 768px) {
+
+        .wallpaper {
+            flex-direction: row;
+
+            .icons {
+                position: relative;
+                height: 15vh;
+                width: fit-content;
+                padding-right: 15px;
+
+                .preview {
+                    height: 100%;
+                    width: auto;
+                }
+
+                .icon {
+                    height: 25%;
+                }
+            }
+        }
+
+    }
+}
+
+
+// margin: t r b l;

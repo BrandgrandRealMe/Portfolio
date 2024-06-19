@@ -8,6 +8,7 @@ import "@/styles/partials/_footer.scss";
 import "@/styles/partials/_codeblock.scss";
 import "@/styles/partials/_about.scss";
 import "@/styles/partials/_socialicons.scss";
+import "@/styles/partials/_wallpapers.scss";
 
 import 'highlight.js/styles/github-dark.css'; 
 import 'react-toastify/dist/ReactToastify.css';

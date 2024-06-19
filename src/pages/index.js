@@ -8,6 +8,7 @@ import AboutHeader from "@/components/home/header/header";
 import About from "@/components/home/about";
 import Packages from "@/components/home/packages";
 import Bots from "@/components/home/bots";
+import Wallpapers from "@/components/home/wallpapers";
 import Footer from "@/components/footer/footer";
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
       <About />
       <Packages />
       <Bots />
+      <Wallpapers />
       <Footer />
     </>
   );
