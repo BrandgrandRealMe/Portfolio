@@ -1,5 +1,6 @@
 import "@/styles/contact.scss";
 import "@/styles/globals.scss";
+import "@/styles/404.scss";
 import "@/styles/partials/_navbar.scss";
 import "@/styles/partials/_header.scss";
 import "@/styles/partials/_packages.scss";
