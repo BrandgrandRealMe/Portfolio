@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Why Brandgrand Rocks!</title>
+        <title>Why Brandon Rocks!</title>
         <meta
           name="description"
           content="Hello my name is Brandon I am a coding enthusiast, gamer, And a Highschool student. I build websites, make chat bots, and have fun!"

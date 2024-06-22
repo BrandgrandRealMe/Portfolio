@@ -21,7 +21,7 @@ const Navbar = () => {
             <nav className={`nav`}>
                 <Link className={"Header"} href={"/"}>
                     <Logo />
-                    <h1 className="headerText">BrandgrandReal (Brandon)</h1>
+                    <h1 className="headerText">Why Brandon Rocks</h1>
                 </Link>
                 <div
                     onClick={() => setNavActive(!navActive)}
