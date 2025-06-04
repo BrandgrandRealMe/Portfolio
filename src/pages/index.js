@@ -18,7 +18,7 @@ export default function Home() {
         <title>Why Brandon Rocks!</title>
         <meta
           name="description"
-          content="Hello my name is Brandon I am a coding enthusiast, gamer, And a Highschool student. I build websites, make chat bots, and have fun!"
+          content="Hello my name is Brandon I am a coding enthusiast, graphic designer, and gamer. I build websites, make chat bots, and have fun!"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon/favicon.ico" />
