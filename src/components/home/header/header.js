@@ -20,7 +20,7 @@ const AboutHeader = () => {
                 <Logo />
                 <div className="headerText">
                     <h1>Why Brandon Rocks</h1>
-                    <h4>Hello my name is Brandon I am a coding enthusiast, gamer, And a Highschool student. I build websites, make chat bots, and have fun!</h4>
+                    <h4>Hello my name is Brandon I am a coding enthusiast, gamer, And a Graphic designer. I build websites, make chat bots, and have fun!</h4>
                 </div>
             </div>
             <FontAwesomeIcon className="DownIcon" icon={faChevronDown} />
